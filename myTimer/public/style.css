@@ -1,0 +1,13 @@
+#currentTime {
+  font-size: 80px;
+}
+
+div {
+  display: flex; 
+  align-items: center;
+}
+
+p{
+  font-size: 20px; 
+  margin: 20px;
+}

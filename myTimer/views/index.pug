@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title Tools Works
+    link(rel="stylesheet" href="/style.css")
+    script(src="/script.js")
+  body
+    h1(id="currentTime")
+
+    h2 Number<-------------------Converter------------------->English	
+    div
+
+      // Input Bar
+      label(for="userInput") Please input a non-negative number:
+      input(type="text", id="userInput", name="userInput")
+
+      // Button
+      button(type="button", onclick="submitForm()") Submit
+      
+      p(id="result")
+
+    // Script for handling button click
+    script(src="/num_language.js")
