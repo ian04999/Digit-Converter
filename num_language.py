@@ -221,6 +221,18 @@ def testing(uin):
     print("Input = ", uin, "Output = ", num_str)
     return num_str
 
+def gui_version(uin):
+    if int(uin) < 0:
+        print("Input = ", uin, "Output = Not Support Negative Number")
+        return "Not Support Negative Number"
+    if int(uin) == 0:
+        print("Input = ", uin, "Output = Zero")
+        return "Zero"
+    num_dig = len(str(uin))
+    num_str = run(num_dig, int(uin))
+    print("Input = ", uin, "Output = ", num_str)
+    return num_str
+
 def main():
     uin, num_dig = userInput()
     if int(uin) < 0:
